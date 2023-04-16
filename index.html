@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Team 10</title>
+      <link rel="stylesheet" href="css/homepage.css">
+   </head>
+   <body>
+      <div class="container">
+         <h1>Welcome to Our Team's Homepage!</h1>
+         <p>We are a group of talented individuals who strive to push the boundaries and deliver outstanding results. Whether you're looking to join our team or collaborate with us, you've come to the right place.</p>
+         <h2>Meet Our Team Members</h2>
+         <div class="team-member">
+            <div class="profile-photo">
+               <img src="media/artemchushev.png" alt="Artem Chushev">
+            </div>
+            <div class="member-info">
+               <a href="artemchushev.html" style="text-decoration:none;"><h3>Artem Chushev</h3></a>
+               <p>ADA Student</p>
+            </div>
+         </div>
+         <div class="team-member">
+            <div class="profile-photo">
+               <img src="media/javidmammadli.png" alt="Javid Mammadli">
+            </div>
+            <div class="member-info">
+               <a href="javidmammadli.html" style="text-decoration:none;"><h3>Javid Mammadli</h3></a>
+               <p>ADA Student</p>
+            </div>
+         </div>
+         <div class="team-member">
+            <div class="profile-photo">
+               <img src="media/riadruhi.png" alt="Riad Ruhi">
+            </div>
+            <div class="member-info">
+               <a href="riadruhi.html" style="text-decoration:none;"><h3>Riad Ruhi</h3></a>
+               <p>ADA Student</p>
+            </div>
+         </div>
+         <h2>Hour of Code Event</h2>
+         <p>The Hour of Code is a computer science event that aims to dispel the mystery surrounding "coding", establish that anyone can grasp the fundamentals, and promote greater engagement in the discipline. The event was organized by Team №10 on March 3, 2023, from 9:45 AM to 10:30 AM at the School №62 of Baku.
+            The event was attended by 14 pupils of 6th grade. Working as a team, we employed all available resources and a variety of methods to ensure that the learning process was both educationally effective and engaging for the kids. The Hour of Code event in School №62 turned out to be a huge success, with pupils showing enthusiasm in programming concepts and ADA University. Many pupils expressed a desire to learn more about programming and to pursue it as a career in the future.
+            Overall, the event was an excellent opportunity for pupils to learn about programming. Our team eagerly anticipates the opportunity to host similar events in the future, thereby continuing our efforts to provide valuable educational experiences for the community.
+         </p>
+         <a href="hourofcode.html" class="cta-button">Learn More</a>
+         <h2>Website Project</h2>
+         <p>Our website project is dedicated to showcasing the work of our talented team. We aim to provide a platform where we can share our latest projects. Our website is designed to be user-friendly and easy to navigate, making it simple for visitors to explore our work and learn more about our team.<br><br>Each of our team members has successfully completed the HTML, CSS, and JavaScript courses on Codecademy. These courses are essential for developing high-quality websites and web applications.</p>
+         <li><a href="https://www.codecademy.com/profiles/artemchushev" target="_blank" rel="noopener">codecademy.com/artemchushev</a></li>
+         <li><a href="https://www.codecademy.com/profiles/cavidmammadli" target="_blank" rel="noopener">codecademy.com/javidmammadli</a></li>
+         <li><a href="https://www.codecademy.com/profiles/riadruhi" target="_blank" rel="noopener">codecademy.com/riadruhi</a></li>
+      </div>
+	   <section>
+        <h2>Subscribe to our Newsletter</h2>
+        <center><form>
+          <label for="email">Enter your email address:</label>
+          <input type="email" id="email" name="email" required>
+          <button type="submit" onclick="submitForm()">Subscribe</button>
+        </form></center>
+      </section><br><br><br>
+    </div>
+	<script src="js/transition.js"></script>
+    <script>
+    function submitForm() {
+        var email = document.getElementById("email").value;
+        alert("Thank you for subscribing to our newsletter, " + email + "!");
+      }
+    </script>
+   </body>
+</html>
